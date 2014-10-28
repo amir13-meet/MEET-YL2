@@ -1,0 +1,56 @@
+body{
+	background-repeat: no-repeat;
+}
+
+table td{
+	background-color:black;
+	border-color: white;
+	border-radius: 5px;
+	border-width: 5px;
+	color:black;
+	font-family:questrial;
+	text-align: center;
+	font-size: 250%;
+	border-style: solid;
+}
+
+.white_thingy{
+	float:left;
+	position:absolute;
+	border-radius: 10px;
+	background-color: rgb(192,192,192);
+	font-size: 250%
+	font-family:verdana;
+	margin-left: 100px;
+	margin-top: 100px;
+	margin-right: 300px;
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.mini{
+	border-radius: 10px;
+	background-color: rgb(59,183,171);
+	font-size: 250%
+	font-family:verdana;
+}
+
+.picaa img{
+	border-color:black;
+	border-style:solid;
+	border-radius: 25px;
+	border-width: 10px;
+	width:100px;
+	height:100px;
+}
+
+.picaa ul{
+	text-decoration:none;
+	list-style-type: none;
+}
+
+.picaa{
+	float:right;
+}
