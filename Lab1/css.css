@@ -5,7 +5,7 @@ input[type=text]
 	border-radius: 5px;
 }
 input[type=text]:focus {
-	border-color: rgb(255,0,0);
+	border-color: rgb(180,180,180);
 }
 
 @font-face{
@@ -63,10 +63,16 @@ table td{
 	text-align: center;
 	font-size: 400%;
 	border-style: solid;
+	-webkit-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-ms-*transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
 }
 
 table td:hover{
 	background-color:rgb(180,180,180);
+	border-color: rgb(180,180,180);
 	-webkit-transition: all 500ms ease;
 	-moz-transition: all 500ms ease;
 	-ms-*transition: all 500ms ease;
@@ -97,7 +103,7 @@ table td a:active{
 .frame_back{
 	position: absolute;
 	border-radius: 30px;
-	background-color:rgb(50,50,50);
+	background-color:rgba(20, 104, 140, 0.44);
 	margin-left: 100px;
 	margin-top: 100px;
 	margin-right: 300px;
@@ -105,9 +111,16 @@ table td a:active{
 	padding-left: 50px;
 	padding-top: 50px;
 	padding-bottom: 50px;
+	-webkit-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-ms-*transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
 }
 
 .frame{
+	text-align: center;
+	border: 8px solid;
 	border-radius: 30px;
 	background-color: rgb(120,120,120);
 	font-size: 150%;
@@ -117,9 +130,16 @@ table td a:active{
 	padding-top: 10px;
 	padding-bottom: 10px;
 	margin-right:400px;
+	-webkit-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-ms-*transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
 }
 
 .rhs{
+	border: 8px solid;
+	border-color:black;
 	border-radius: 30px;
 	background-color: rgb(120,120,120);
 	font-size: 150%;
@@ -130,10 +150,26 @@ table td a:active{
 	padding-top: 10px;
 	padding-bottom: 10px;
 	float:right;
+	-webkit-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-ms-*transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
+}
+
+.rhs:hover{
+	background-color:rgb(180,180,180);
+	border-color: rgb(180,180,180);
+	-webkit-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-ms-*transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
 }
 
 .frame:hover{
 	background-color:rgb(180,180,180);
+	border-color: rgb(180,180,180);
 	-webkit-transition: all 500ms ease;
 	-moz-transition: all 500ms ease;
 	-ms-*transition: all 500ms ease;
@@ -162,6 +198,11 @@ table td a:active{
 	border-width: 10px;
 	width:100px;
 	height:100px;
+	-webkit-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-ms-*transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
 }
 
 .picaa img:hover{
